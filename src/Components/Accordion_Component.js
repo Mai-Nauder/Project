@@ -29,8 +29,7 @@ const Accordion_component = () => {
                     <Typography>
                         <Grid className="container" >
                             <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
+
                             <div>
                                 
                             </div>
