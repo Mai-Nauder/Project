@@ -9,7 +9,6 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import * as React from "react";
-import FormRow from "./FormRow"
 import Grid_Row from "./Grid_Row";
 
 const Accordion_component = () => {
@@ -32,6 +31,9 @@ const Accordion_component = () => {
                             <Grid_Row></Grid_Row>
                             <Grid_Row></Grid_Row>
                             <Grid_Row></Grid_Row>
+                            <div>
+                                
+                            </div>
                         </Grid>
                     </Typography>
                 </AccordionDetails>

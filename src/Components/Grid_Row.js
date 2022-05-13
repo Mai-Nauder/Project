@@ -1,12 +1,12 @@
 import {
     Grid,
 } from "@mui/material";
-import FormRow from "./FormRow"
+import Grid_Component from "./Grid_Component";
 
 const Grid_Row = () => {
     return (
         <Grid container item spacing={3} className="Grid2">
-            <FormRow />
+            <Grid_Component></Grid_Component>
         </Grid>);
 }
 
