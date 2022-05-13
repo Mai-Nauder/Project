@@ -22,7 +22,7 @@ const Appbar_component = () => {
                 <MenuIcon />
             </IconButton>
             <Typography variant="h6" color="inherit" component="div">
-                Photos
+                Home
             </Typography>
         </Toolbar>
     </AppBar>);

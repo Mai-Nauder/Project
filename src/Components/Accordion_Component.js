@@ -9,7 +9,9 @@ import {
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import * as React from "react";
-import Grid_Row from "./Grid_Row";
+import Grid_Row from "./Bottoms_Grid";
+import Bottoms_Grid from "./Bottoms_Grid";
+import Dresses_Grid from "./Dresses_Grid";
 
 const Accordion_component = () => {
     const handleChange = (event) => {
@@ -28,7 +30,7 @@ const Accordion_component = () => {
                 <AccordionDetails>
                     <Typography>
                         <Grid className="container" >
-                            <Grid_Row></Grid_Row>
+                            <Bottoms_Grid></Bottoms_Grid>
 
                             <div>
                                 
@@ -47,9 +49,8 @@ const Accordion_component = () => {
                 <AccordionDetails>
                     <Typography>
                     <Grid className="container" >
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
+                            <Dresses_Grid></Dresses_Grid>
+
                         </Grid>
                     </Typography>
                 </AccordionDetails>
@@ -65,9 +66,7 @@ const Accordion_component = () => {
                 <AccordionDetails>
                     <Typography>
                     <Grid className="container" >
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
+      
                         </Grid>
                     </Typography>
                 </AccordionDetails>
@@ -83,9 +82,7 @@ const Accordion_component = () => {
                 <AccordionDetails>
                     <Typography>
                     <Grid className="container" >
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
+
                         </Grid>
                     </Typography>
                 </AccordionDetails>
@@ -101,9 +98,7 @@ const Accordion_component = () => {
                 <AccordionDetails>
                     <Typography>
                     <Grid className="container" >
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
-                            <Grid_Row></Grid_Row>
+
                         </Grid>
                     </Typography>
                 </AccordionDetails>

@@ -1,12 +1,12 @@
 import {
     Grid,
 } from "@mui/material";
-import Grid_Component from "./Grid_Component";
+import Grid_Component from "./Dresses_Grid";
 import Card from './Card';
 import * as React from "react";
 
 
-const Grid_Row = () => {
+const Bottoms_Grid = () => {
     return (
         <Grid container item spacing={3} className="Grid2">
             <React.Fragment>
@@ -14,8 +14,7 @@ const Grid_Row = () => {
                     <Card img="https://img.ltwebstatic.com/images3_pi/2020/03/25/158512465436e762f16d967d6800debd80f8b1e30c_thumbnail_900x.webp" description="high-Rise baggy jeans" price="11$"></Card>
                 </Grid>
                 <Grid item xs={4} className='Grid grid2'>
-                    <Card img="https://img.ltwebstatic.com/images3_pi/2021/10/19/1634607178057d99a498f759b0257656af45002f71_thumbnail_900x.webp" description="Solid Zip Up Straight Leg Pants
-" price="11$"></Card>
+                    <Card img="https://img.ltwebstatic.com/images3_pi/2021/10/19/1634607178057d99a498f759b0257656af45002f71_thumbnail_900x.webp" description="Solid Zip Up Straight Leg Pants" price="11$"></Card>
                 </Grid>
                 <Grid item xs={4} className='Grid grid3'>
                     <Card img="https://img.ltwebstatic.com/images3_pi/2022/03/04/16463808896faaec07c05ad3f44b1a5cf890551979_thumbnail_900x.webp" description="High Waisted Wide Leg Chambray Pants" price="11$"></Card>
@@ -45,4 +44,4 @@ const Grid_Row = () => {
         </Grid>);
 }
 
-export default Grid_Row;
+export default Bottoms_Grid;

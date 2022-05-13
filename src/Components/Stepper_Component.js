@@ -4,7 +4,7 @@ import {
     StepLabel,
   } from "@mui/material";
 const Stepper_Component = () => {
-    const steps = ["services", "date", "finalizing"];
+    const steps = ["Products", "date", "finalizing"];
 
     return (
         <Stepper activeStep={1} alternativeLabel className="mt">
