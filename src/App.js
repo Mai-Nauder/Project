@@ -45,7 +45,7 @@ const App = () => {
       <div>
         <ThemeProvider theme={theme}>
           <div>
-            <Appbar_component></Appbar_component>branch test
+            <Appbar_component></Appbar_component>
           </div>
         </ThemeProvider>
       </div>

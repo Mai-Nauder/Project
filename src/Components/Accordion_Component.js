@@ -8,44 +8,30 @@ import {
 
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-
 import * as React from "react";
 import FormRow from "./FormRow"
-
-
+import Grid_Row from "./Grid_Row";
 
 const Accordion_component = () => {
     const handleChange = (event) => {
-        console.log(event.target.checked);
-      };
+    };
     return (
         <div>
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1a-content"
-                    id="panel1a-header"
-                >
+                    id="panel1a-header">
                     <Typography>
                         Bottoms
-                        <Checkbox
-                            defaultChecked
-                            onChange={handleChange}
-                        />
                     </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
                         <Grid className="container" >
-                            <Grid container item spacing={3} className="Grid2">
-                                <FormRow />
-                            </Grid>
-                            <Grid container item spacing={3} className="Grid2">
-                                <FormRow />
-                            </Grid>
-                            <Grid container item spacing={3} className="Grid2">
-                                <FormRow />
-                            </Grid>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
                         </Grid>
                     </Typography>
                 </AccordionDetails>
@@ -54,14 +40,16 @@ const Accordion_component = () => {
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2a-content"
-                    id="panel2a-header"
-                >
+                    id="panel2a-header">
                     <Typography>Dresses</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <Grid className="container" >
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                        </Grid>
                     </Typography>
                 </AccordionDetails>
             </Accordion>
@@ -75,8 +63,11 @@ const Accordion_component = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <Grid className="container" >
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                        </Grid>
                     </Typography>
                 </AccordionDetails>
             </Accordion>{" "}
@@ -90,8 +81,11 @@ const Accordion_component = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <Grid className="container" >
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                        </Grid>
                     </Typography>
                 </AccordionDetails>
             </Accordion>{" "}
@@ -105,8 +99,11 @@ const Accordion_component = () => {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                        malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    <Grid className="container" >
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                            <Grid_Row></Grid_Row>
+                        </Grid>
                     </Typography>
                 </AccordionDetails>
             </Accordion>
