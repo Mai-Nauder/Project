@@ -10,7 +10,7 @@ const CardActions_Component = () => {
     <CardActions disableSpacing>
       <div className='d-flex'>
         <div>
-        <IconButton aria-label="add to favorites" className="R" >
+        <IconButton aria-label="add to favorites" /* color="error" */ className="R" >
           <FavoriteIcon />
         </IconButton>
         </div>

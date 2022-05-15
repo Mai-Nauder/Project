@@ -1,5 +1,9 @@
+.d-flex{
+    display: flex;
+}
+
 .R{
-    float:left
+    float:left;
 }.L{
-    float:right
+    float:right;
 }

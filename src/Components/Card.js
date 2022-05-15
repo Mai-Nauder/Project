@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import CardActions_Component from "./CardActions_Component";
 
 const Card = (props) => {
@@ -16,9 +17,7 @@ const Card = (props) => {
               <p className="card-text">{props.description}
               </p>
               <p class="fw-bold mt-2 fs-5">{props.price}</p>
-              <a href="#" className="btn btn-primary">
-              Add To Card
-              </a>
+              <Button variant="contained" href="#outlined-buttons #text-buttons"  color="secondary">Add To Card</Button>
               <CardActions_Component></CardActions_Component>
             </div>
           </div>

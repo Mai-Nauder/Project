@@ -1,4 +1,6 @@
-
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import {
     AppBar,
     IconButton,
@@ -8,6 +10,9 @@ import {
 } from "@mui/material";
 import * as React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
+import "../CSS/Card_css.css"
+
+
 
 
 const Appbar_component = () => {
@@ -24,6 +29,21 @@ const Appbar_component = () => {
             <Typography variant="h6" color="inherit" component="div">
                 Home
             </Typography>
+            <div>
+                <nav class="navbar ">
+                    <div class="container">
+                        <a class="navbar-brand" href="#" >
+                            <FacebookIcon color='secondary'></FacebookIcon >
+                        </a>                        
+                        <a class="navbar-brand" href="#">
+                            <InstagramIcon color='secondary'></InstagramIcon>
+                        </a>                        
+                        <a class="navbar-brand" href="#">
+                            <TwitterIcon color='secondary'></TwitterIcon>
+                        </a>
+                    </div>
+                </nav>
+            </div>
         </Toolbar>
     </AppBar>);
 }
