@@ -28,11 +28,11 @@ const theme = createTheme({
       light: "#ff5982",
       dark: "#bb002e"
     },
-    info:{
-      main:"#2196f3",
-      light:"#64b5f6",
-      dark:"#1976d2",
-      contrastText:"#fff"
+    info: {
+      main: "#2196f3",
+      light: "#64b5f6",
+      dark: "#1976d2",
+      contrastText: "#fff"
     },
     background: {
       default: "#232121",
@@ -55,8 +55,10 @@ const App = () => {
     <div>
       <ThemeProvider theme={theme}>
         <Appbar_component></Appbar_component>
-        <Stepper_Component></Stepper_Component>
-        <Accordion_component></Accordion_component>
+        {/* <Stepper_Component></Stepper_Component> */}
+        <div className="container">
+          <Accordion_component></Accordion_component>
+        </div>
       </ThemeProvider>
     </div>
   );

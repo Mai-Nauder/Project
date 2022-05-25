@@ -85,7 +85,7 @@ const Accordion_component = () => {
 
                         </Grid>
                     </Typography>
-                </AccordionDetails>
+                </AccordionDetails>z
             </Accordion>{" "}
             <Accordion>
                 <AccordionSummary
